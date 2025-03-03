@@ -1,4 +1,4 @@
-cd 100devs-ci-cd
+cd devops
 git pull origin main
 npm install
 npm run build
