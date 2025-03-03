@@ -19,6 +19,6 @@ jobs:
           host: ubuntu@51.20.135.184
         
         username: ubuntu
-        password: ${{ secrets.PRIVATE_SSH_KEY}}
+        key: ${{ secrets.PRIVATE_SSH_KEY}}
         port: 22
         script: whoami  
