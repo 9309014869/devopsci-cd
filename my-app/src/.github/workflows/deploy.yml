@@ -21,7 +21,7 @@ jobs:
         username: ubuntu
         key: ${{ secrets.PRIVATE_SSH_KEY}}
         port: 22
-        script: 
+        script: |
             cd 100devs-ci-cd
             git pull origin main
             npm install
